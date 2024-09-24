@@ -84,6 +84,7 @@ header {
 	background-color: lightblue;
 	display: flex;
 	order: -2;
+	z-index: 10;
 	height: 15vh;
 	padding: 1em;
 	transition: transform 0.75s;
@@ -94,6 +95,7 @@ header {
 footer {
 	background-color: lightblue;
 	display: flex;
+	z-index: 11;
 	height: 10vh;
 	padding: 1em;
 	transition: transform 0.75s;
