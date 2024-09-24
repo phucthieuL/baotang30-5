@@ -98,11 +98,11 @@ footer {
 	z-index: 11;
 	height: 10vh;
 	padding: 1em;
-	transition: transform 0.75s;
+/*	transition: transform 0.75s;*/
 	justify-content: center;
 	align-items: center;
 }
 
-header:hover, footer:hover {
+header:hover/*, footer:hover*/ {
 	transform: scale(1.25);
 }
