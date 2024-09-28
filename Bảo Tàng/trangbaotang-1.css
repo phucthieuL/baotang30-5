@@ -81,8 +81,9 @@ body {
 }
 
 header {
-	background-color: lightblue;
+/*	background-color: lightblue;*/
 	display: flex;
+	position: relative;
 	order: -2;
 	z-index: 10;
 	height: 15vh;
@@ -90,6 +91,28 @@ header {
 	transition: transform 0.75s;
 	justify-content: center;
 	align-items: center;
+/*	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('');*/
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 150%;
+	overflow: hidden;
+}
+
+.headerbg {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('img/dinhdoclap.jpg');
+    background-size: 100vw;
+    background-position-x: center;
+    background-position-y: 50%;
+    filter: brightness(0.5);
+    width: 100%;
+    height: 100%;
+	transition: transform 0.75s;
 }
 
 footer {
@@ -103,6 +126,6 @@ footer {
 	align-items: center;
 }
 
-header:hover/*, footer:hover*/ {
-	transform: scale(1.25);
+header:hover > .headerbg{
+	transform: scale(1.2);
 }
