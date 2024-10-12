@@ -29,6 +29,15 @@ p {
 	z-index: 2;
 }
 
+div {
+	-webkit-animation: fadein 0.75s;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .column1 {
 	display: flex;
 	flex: 0 0 87.5vw;
@@ -48,17 +57,14 @@ p {
 }
 
 .scrtext-container {
-	display: flex;
-	flex: 0 0 25vw;
+	/*display: flex;
+	flex: 0 0 25vw;*/
 	height: 100%;
 	width: 25vw;
 /*	background-color: #3a0ca3;*/
 	padding: 15px;
 	transition: width 1.0s;
-}
-
-.scrtext-container:hover {
-	width: 50vw;
+	pointer-events: none;
 }
 
 .scrtext {
@@ -71,13 +77,19 @@ p {
 	text-align: justify;
 	text-justify: inter-word;
 	color: white;
+	pointer-events: auto;
+}
+
+.scrtext-container:hover {
+	width: 50vw;
 }
 
 .imgchinh-container {
-	display: flex;
-	flex: 0 0 62.5vw;
-	height: 100%;
-	width: 62.5vw;
+/*	display: flex;*/
+/*	flex: 0 0 62.5vw;*/
+	flex-grow: 1;
+/*	height: 100%;*/
+/*	width: 62.5vw;*/
 /*	background-color: #a3b18a;*/
 	padding: 15px;
 }
@@ -92,7 +104,7 @@ p {
 
 .imgchinh {
 	width: 100%;
-	max-height: 100%;
+	height: 100%;
 	object-fit: cover;
 	transition: transform 0.5s;
 }
@@ -128,8 +140,10 @@ p {
 }
 
 .imgphu {
+	/*width: 100%;
+	max-height: 100%;*/
 	width: 100%;
-	max-height: 100%;
+	height: 100%;
 	object-fit: cover;
 	transition: transform 0.5s;
 }
@@ -153,11 +167,12 @@ p {
 	width: 100%;
 	height: 100%;
 	border-radius: 20px;
-	background-color: #588157;
+/*	background-color: #588157;*/
 	overflow: hidden;
 	color: white;
 	justify-content: center;
 	align-items: center;
+	padding: 15px;
 }
 
 .quote-bg {
@@ -168,11 +183,11 @@ p {
 	left: 0;
 	right: 0;
 	background-image: url('img/chienthang.jpg');
+	background-size: cover;
 	background-position: center;
 	filter: brightness(0.5);
 	width: 100%;
 	height: 100%;
-
 }
 
 .column2 {
@@ -194,7 +209,7 @@ p {
 }
 
 .imgiconic {
-	max-width: 100%;
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	transition: transform 0.5s;
