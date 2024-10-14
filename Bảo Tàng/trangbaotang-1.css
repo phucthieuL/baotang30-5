@@ -2,7 +2,6 @@
 	box-sizing: border-box; 
 }
 
-
 /*// <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900*/
 
@@ -31,8 +30,8 @@ p {
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 .column1 {
@@ -79,6 +78,14 @@ p {
 	text-justify: inter-word;
 	color: white;
 	pointer-events: auto;
+}
+
+.scrtext::-webkit-scrollbar {
+	display: none;
+}
+
+.scrtext {
+	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
 
