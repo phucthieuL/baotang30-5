@@ -70,6 +70,9 @@ p {
 	height: 100%;
 	width: 50%;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+/*	animation-delay: 0.1s;*/
 }
 
 .img1-container2 {
@@ -94,6 +97,9 @@ img:hover {
 .scrtext1-container {
 	flex-grow: 1;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.1s;
 }
 
 .scrtext1 {
@@ -123,6 +129,9 @@ img:hover {
 	height: 100%;
 	width: 50vw;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.1s;
 }
 
 .scrtext2 {
@@ -141,6 +150,9 @@ img:hover {
 .img2-container {
 	flex-grow: 1;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.2s;
 }
 
 .img2-container2 {
@@ -175,6 +187,9 @@ img:hover {
 	height: 45vh;
 	width: 100%;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.3s;
 }
 
 .imgc1-container2 {
@@ -190,6 +205,9 @@ img:hover {
 	flex-shrink: 0;
 	height: 55vh;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.4s;
 }
 
 .scrtextc1 {
@@ -219,6 +237,9 @@ img:hover {
 	height: 45vh;
 	width: 100%;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.4s;
 }
 
 .imgc2-container2 {
@@ -234,6 +255,9 @@ img:hover {
 	flex-shrink: 0;
 	height: 55vh;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.5s;
 }
 
 .scrtextc2 {
@@ -263,6 +287,9 @@ img:hover {
 	height: 45vh;
 	width: 100%;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.5s;
 }
 
 .imgc3-container2 {
@@ -278,6 +305,9 @@ img:hover {
 	flex-shrink: 0;
 	height: 55vh;
 	padding: 15px;
+	animation: fadein 1.0s;
+	animation-fill-mode: both;
+	animation-delay: 0.6s;
 }
 
 .scrtextc3 {
