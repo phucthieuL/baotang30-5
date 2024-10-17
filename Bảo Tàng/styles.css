@@ -135,6 +135,7 @@ a {
     object-position: center center;
     -webkit-user-select: none;
     user-select: none;
+    border-radius: 1.5rem;
 }
 
 #slider {
