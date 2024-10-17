@@ -67,7 +67,7 @@ p {
 
 	animation: fadein 1.0s;
 	animation-fill-mode: both;
-/*	animation-delay: 0.1s;*/
+	animation-delay: 0.1s;
 }
 
 .scrtext {
@@ -126,7 +126,7 @@ p {
 
 	animation: fadein 1.0s;
 	animation-fill-mode: both;
-	animation-delay: 0.1s;
+	animation-delay: 0.2s;
 }
 
 .imgchinh-container2 {
@@ -167,7 +167,7 @@ p {
 
 	animation: fadein 1.0s;
 	animation-fill-mode: both;
-	animation-delay: 0.1s;
+	animation-delay: 0.2s;
 }
 
 .imgphu-container2 {
@@ -201,7 +201,7 @@ p {
 
 	animation: fadein 1.0s;
 	animation-fill-mode: both;
-	animation-delay: 0.2s;
+	animation-delay: 0.3s;
 }
 
 .quote-container {
@@ -252,7 +252,7 @@ p {
 
 	animation: fadein 1.0s;
 	animation-fill-mode: both;
-	animation-delay: 0.3s;
+/*	animation-delay: 0.3s;*/
 }
 
 .imgiconic {
