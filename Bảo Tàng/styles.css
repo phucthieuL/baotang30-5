@@ -6,16 +6,15 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Playfair", sans-serif;
+  background-color: #FAE4D9;
   color: #333;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 17px;
   height: 100vh;
   overflow: hidden;
-  background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg");
   background-size: cover;
 }
 
@@ -69,7 +68,7 @@ a {
 }
 
 #content {
-  padding: 2em;
+  padding: 20px;
   height: calc(100dvh - 5em - 7em);
   max-height: calc(100dvh - 5em - 7em);
   overflow: auto;
@@ -80,6 +79,9 @@ a {
 .content__title {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Lora", sans-serif;
 }
 
 .content__para {
@@ -88,7 +90,6 @@ a {
   flex-wrap: wrap;
   text-align: center;
   gap: 3em;
-  margin: auto;
 }
 
 .content__para1 {
@@ -102,26 +103,41 @@ a {
 .content__para--image {
   width: min(100%, 40em);
   height: auto;
-  margin: 1em;
+  margin: 15px;
   border-radius: 10px;
 }
 
-.description-text {
+.description-text1 {
   text-align: justify;
-  margin-top: 1em;
+  margin-top: 20px;
+  
+}
+
+.description-text2 {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.description-title1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.description-title2 {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 #footer {
-  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute; /* Position absolute to stick to the bottom */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
-  padding: 0 3em;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  height: 7em;
+  padding: 0.5em 1em;
   color: #f4f4f4;
-  display: flex;
-  flex-direction: column;
 }
-
 .footer-nav {
   display: flex;
   justify-content: center;
@@ -139,5 +155,5 @@ a {
 }
 
 .footer-noti {
-  padding: 0.5em;
+  padding: 0.2em;
 }
