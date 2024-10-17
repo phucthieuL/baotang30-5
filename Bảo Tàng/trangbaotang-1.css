@@ -29,6 +29,10 @@ p {
 	z-index: 2;
 }
 
+h1 {
+	font-weight: 400;
+}
+
 @keyframes fadein {
 	from { opacity: 0; }
 	to   { opacity: 1; }
@@ -72,14 +76,25 @@ p {
 	height: 100%;
 	background-color: #e4ccab ;
 	border-radius: 20px;
-	padding: 15px;
+	padding: 0px 15px 15px 15px;
 	overflow: scroll;
 	text-align: justify;
 	text-justify: inter-word;
-	color: #141516 ;
+	color: #a49783 ;
 	pointer-events: auto;
 	font-family: "Playfair Display", serif;
 	font-size: 18px;
+	border-style: solid;
+	border-color: #141516;
+}
+
+.scrtext p {
+	-webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+.scrtext p:hover {
+	color: #1e1e1c;
 }
 
 .headline {
