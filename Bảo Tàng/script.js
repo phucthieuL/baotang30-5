@@ -22,3 +22,6 @@ function navpage(pagenum) {
     window.location.href = "trangbaotang-"+pagenum+".html";
 }
 
+function navhome() {
+    window.location.href = "index.html";
+}
