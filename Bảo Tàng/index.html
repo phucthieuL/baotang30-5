@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kỉ Niệm 50 Năm Giải Phóng</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 </head>
 
 <body>
@@ -72,9 +74,9 @@
                 <img class="content__para--image content__para--image2" src="https://picsum.photos/400/200" alt="">
             </div>
 
-            <div id="slider" data-mouse-down-at="0" data-prev-percentage="0">
+
+            <!-- <div id="slider" data-mouse-down-at="0" data-prev-percentage="0">
                 <h1 class="slider-h1">Chọn trang bảo tàng mà bạn muốn xem</h1>
-                <img src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
                 <img src="img/tuf (25).jpg" alt="" draggable="false" id="img2">
                 <img src="img/tuf (25).jpg" alt="" draggable="false" id="img3">
                 <img src="img/tuf (25).jpg" alt="" draggable="false" id="img4">
@@ -82,11 +84,52 @@
                 <img src="img/tuf (25).jpg" alt="" draggable="false" id="img6">
                 <img src="img/tuf (25).jpg" alt="" draggable="false" id="img7">
                 <img src="img/tuf (25).jpg" alt="" draggable="false" id="img8">
-            </div>
-
-
-
+            </div> -->
         </div>
+        <h3 class="heading-3">
+            CHỌN TRANG BẢO TÀNG MÀ BẠN MUỐN XEM
+        </h3>
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": "true" }'>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+            <div class="carousel-cell">
+                <a href="trangbaotang-1.html">
+                    <img class="img-carousel" src="img/tuf (25).jpg" alt="" draggable="false" id="img1">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="carousel-cell">
+
+
     </section>
 
     <footer id="footer">
@@ -96,7 +139,7 @@
         </div> -->
         <p class="footer-noti">Sản phẩm không thể thay thế trải nghiệm tham quan trực tiếp tại các bảo tàng</p>
     </footer>
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="index.js"></script>
 </body>
 
