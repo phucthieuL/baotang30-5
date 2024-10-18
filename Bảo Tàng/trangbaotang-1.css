@@ -171,12 +171,8 @@ button:active {
 	transition: color 1s; /* For modern browsers */
 }
 
-/* .scrtext p:hover {
-	color: #1e1e1c;
-} */
-
-.scrtext-container:hover > p {
-	color: #1e1e1c;
+.scrtext:hover > .pg {
+	color: #1c1c1c;
 }
 
 .headline {
