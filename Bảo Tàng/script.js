@@ -16,3 +16,8 @@ const textAnim = (id, text, index = 0) => {
         setTimeout(() => textAnim(id,text,i), speed);
     }
 };
+
+
+function navpage(pagenum) {
+    window.location.href = "trangbaotang-"+pagenum+".html";
+}
